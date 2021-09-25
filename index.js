@@ -2,7 +2,7 @@ import { Server } from 'socket.io';
 
 const io = new Server(process.env.PORT, {
     cors: {
-        origin: process.env.URL || 'http://localhost:3000',
+        origin: process.env.URL ,
     }, 
 })
 
